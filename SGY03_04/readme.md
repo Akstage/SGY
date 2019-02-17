@@ -1,9 +1,9 @@
 # SGY03_04 Iptables.
 
-## 1. Introducción.
+## 1. Introducción
 Vamos a utilizar una máquina Debian 9 para esta práctica.
 
-## 2. Preparativos.
+## 2. Preparativos
 Debemos configurar dos tarjetas de red en nuestra MV.
 * La primera será en *modo puente*.
 
@@ -21,7 +21,7 @@ Ya hemos habilitado el *bit de IP forwarding*.
 
 ![img](img/4.png)
 
-## 3. Creación del script.
+## 3. Creación del script
 
 Comprobamos el contenido del script que contiene las reglas. Lo hemos creado en la ruta */etc/network/if-up.d/* para que se ejecute según se levanten las interfaces.
 
